@@ -6,18 +6,18 @@ class Syncvibe < Formula
 
   on_macos do
     url "https://github.com/Curious1008/syncvibe/releases/download/v0.2.1/syncvibe-darwin-universal.tar.gz"
-    sha256 "daaaa0fb103be64cdcc5a0f91dc00aa452d503e001dd0313bcf5d738772d12f7"
+    sha256 "5a0d09580fc21f7b1218ef8e65561bbff653ff0f74aa34a1ac5ab3f53c4934d3"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Curious1008/syncvibe/releases/download/v0.2.1/syncvibe-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "959d55eba6c99dc66188f253b71384635dc6cc25ad7f65eafecfbb202ca391d5"
+      sha256 "57230467551992aa4f0c89061f653d9a404945c49aca24fbe55e63bd14383a50"
     end
 
     on_arm do
       url "https://github.com/Curious1008/syncvibe/releases/download/v0.2.1/syncvibe-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "96a6e74fe623e55f71cfc5e2958e39cbe412127ece43f5c22b1e7cfbda32cb52"
+      sha256 "b00c22acf0409b157039f274b16f7c764f881ec8b53963ae3bf360bf2ff81856"
     end
   end
 
