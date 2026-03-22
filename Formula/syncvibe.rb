@@ -1,23 +1,23 @@
 class Syncvibe < Formula
   desc "Terminal-native collaboration for vibe coding teams"
   homepage "https://syncvibe.online"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
 
   on_macos do
-    url "https://github.com/Curious1008/syncvibe/releases/download/v0.4.3/syncvibe-darwin-universal.tar.gz"
-    sha256 "de3da532fce8ae57d114c8e14be2a9afce8b1c21b40a18b51a80bf1c30f923e2"
+    url "https://github.com/Curious1008/syncvibe/releases/download/v0.4.4/syncvibe-darwin-universal.tar.gz"
+    sha256 "d0bbd6ee92f2d212a0e74e51a9e98505f216d20e5fc894de0dae1983526e92ef"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Curious1008/syncvibe/releases/download/v0.4.3/syncvibe-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "73e22cffab79b7f29fe76ac704fe3498e84a3c87aa4ad7452afd2d48116128ee"
+      url "https://github.com/Curious1008/syncvibe/releases/download/v0.4.4/syncvibe-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "721a49353a8a7ae63d68318106b0309460f527fe24c498cc36e6939a072db3e7"
     end
 
     on_arm do
-      url "https://github.com/Curious1008/syncvibe/releases/download/v0.4.3/syncvibe-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6de0935cbdd509031bccdd76d0aefaa61e014d492cc0bb446c200aca2adcba3c"
+      url "https://github.com/Curious1008/syncvibe/releases/download/v0.4.4/syncvibe-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6c03af0b1ff3d4f12cccf94c8f3a3db8a918134845ddc457c901ed2089555d2b"
     end
   end
 
